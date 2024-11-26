@@ -19,14 +19,14 @@ The dataset used for training can be found on Kaggle: [dataset](https://www.kagg
 
 ## Running the Application with Docker
 Step 1: Clone this repo: 
-   'git clone https://github.com/haniyrasul/mlzoomcamp-midtermproject/laptop-price-prediction.git'
-   'cd laptop-price-prediction'
+   `git clone https://github.com/haniyrasul/mlzoomcamp-midtermproject/laptop-price-prediction.git`
+   `cd laptop-price-prediction`
 
 Step 2: Build the Docker Image
-   'docker build -t laptop-price-predictor .'
+   `docker build -t laptop-price-predictor .`
 
 Step 3: Run the Docker Container
-   'docker run -it --rm -p 9090:9090 laptop-price-predictor'
+   `docker run -it --rm -p 9090:9090 laptop-price-predictor`
 
 Step 4: Access the Applicaiton
-   'http://localhost:9090'
+   `http://localhost:9090`
