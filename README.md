@@ -18,15 +18,15 @@ By analyzing these features, the model can provide price estimates to aid decisi
 The dataset used for training can be found on Kaggle: [dataset](https://www.kaggle.com/datasets/owm4096/laptop-prices)
 
 ## Running the Application with Docker
-Step 1: Clone this repo: 
-   `git clone https://github.com/haniyrasul/mlzoomcamp-midtermproject/laptop-price-prediction.git`
-   `cd laptop-price-prediction`
+Step 1: Clone this repo: <br>
+   `git clone https://github.com/haniyrasul/mlzoomcamp-midtermproject/laptop-price-prediction.git` <br>
+   `cd laptop-price-prediction` <br>
 
-Step 2: Build the Docker Image
-   `docker build -t laptop-price-predictor .`
+Step 2: Build the Docker Image <br>
+   `docker build -t laptop-price-predictor .` <br>
 
-Step 3: Run the Docker Container
-   `docker run -it --rm -p 9090:9090 laptop-price-predictor`
+Step 3: Run the Docker Container <br>
+   `docker run -it --rm -p 9090:9090 laptop-price-predictor` <br>
 
-Step 4: Access the Applicaiton
+Step 4: Access the Applicaiton <br>
    `http://localhost:9090`
