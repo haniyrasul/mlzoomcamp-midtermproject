@@ -30,3 +30,6 @@ Step 3: Run the Docker Container <br>
 
 Step 4: Access the Applicaiton <br>
    `http://localhost:9090`
+
+## Deployed Model: 
+  Streamlit Application: [link](https://mlzoomcamp-midtermproject-rqxt4cg2zxhhegbsfmmtsm.streamlit.app/)
